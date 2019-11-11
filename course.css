@@ -1,0 +1,57 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(./course.jfif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    color:white;
+}
+
+ul{
+    margin-top: 20px;
+    float: right;
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    padding: 20px;
+    
+    border:1px solid white;
+    
+}
+ul li a:hover{
+    background-color:white;
+    color: black;
+
+}
+.heading{
+    position: absolute;
+    top:5%;
+    left:5%;
+    opacity: 0.8;
+}
+.html{
+    position: absolute;
+    top:30%;
+    left:5%
+}
+.css{
+    position: absolute;
+    top:30%;
+    left:85%;
+    
+
+}
+.css h5{
+    color: skyblue;
+}
+.html h5{
+    color:skyblue;
+}

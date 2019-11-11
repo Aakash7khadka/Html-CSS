@@ -1,0 +1,64 @@
+body{
+    background-image: url(./login.svg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    color:white;
+}
+.main::after{
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+
+ul{
+    margin-top: 20px;
+    float: right;
+    
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    padding: 20px;
+    
+    border:1px solid white;
+    
+}
+ul li a:hover{
+    background-color:white;
+    color: black;
+
+}
+#text{
+    
+    font-size: 40px;
+    clear: both; 
+    
+}
+/* .text p{
+    margin-left: 200px;
+    margin-top: 80px;
+    
+} */
+#text1{
+    clear: both;
+    opacity: 0.9;
+}
+.text {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    opacity: 0.8;
+    
+}
+.form{
+    padding: 20px;
+}

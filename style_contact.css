@@ -1,0 +1,52 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    color:white;
+}
+
+
+ul{
+    margin-top: 20px;
+    float: right;
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    padding: 20px;
+    
+    border:1px solid white;
+    
+}
+ul li a:hover{
+    background-color:white;
+    color: black;
+
+}
+
+.phn{
+    float: left;
+    font-size: 20px
+    
+}
+.phn p{
+    margin-top: 150px;
+    margin-left: 130px;
+}
+.site{
+    float: left;
+    font-size: 20px
+    
+}
+.site p{
+    margin-top: 150px;
+    margin-left: 590px;
+}

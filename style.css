@@ -1,0 +1,51 @@
+body{
+    background-image: url(./1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    color:white;
+}
+
+ul{
+    margin-top: 20px;
+    float: right;
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    padding: 20px;
+    
+    border:1px solid white;
+    
+}
+ul li a:hover{
+    background-color:white;
+    color: black;
+
+}
+.text{
+    float: left;
+    font-size: 40px
+    
+    
+}
+.text p{
+    margin-top: 250px;
+    margin-left: 200px;
+    align-content: center;
+}
+.text1{
+    float:right;
+    font-size: 25px;
+}
+.text1 p{
+    margin-top: 500px;
+    margin-left: 600px;
+}
